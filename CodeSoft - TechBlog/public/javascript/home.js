@@ -11,7 +11,7 @@ row.addEventListener('click', async (e) => {
         const title = card.querySelector('h3').innerText
         console.log('clicked', title)
 
-        const url = `http://localhost:3000/blog-content?q=${title}`
+        const url = `http://localhost:3000/blog-content?title=${title}`
         window.open(url, '_blank')
     }
 })
@@ -24,13 +24,10 @@ author.addEventListener('change', async () => {
 
     row.innerHTML = ''
     const authorName = author.value
-    console.log(authorName)
 
     const res = await getDataByAuthor(authorName)
-    console.log(res)
-
-
-    res.response.forEach(element => {
+   
+    res.blogs.forEach(element => {
 
         const card = document.createElement('div')
         card.classList.add('card')
@@ -39,17 +36,17 @@ author.addEventListener('change', async () => {
             <div>
 
                 <div class="author">
-                    <p>${element.Authors}</p>
+                    <p>${element.author}</p>
                 </div>
 
                 <div>
-                    <img id="card-img" src="${element.ImgURL}" alt="Images">
+                    <img id="card-img" src="${element.imgURL}" alt="Images">
                 </div>
 
                 <div class="card-body">
-                    <h3 class="mt-2">${element.blogTitle}</h3>
+                    <h3 class="mt-2">${element.title}</h3>
 
-                    <p id="blog-content" class="mt-4">${element.smallPara}</p>
+                    <p id="blog-content" class="mt-4">${element.para}</p>
                 </div>
             </div>
             

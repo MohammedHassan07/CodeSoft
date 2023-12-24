@@ -14,7 +14,10 @@ const blogContent = async (req, res) => {
 
         console.log('content-->', data)
 
-        res.status(200).json({ message: 'success', data })
+        // res.status(200).json({ message: 'success', data })
+
+        res.render('blog', { data })
+
 
     } catch (error) {
         console.log(error)
@@ -28,10 +31,17 @@ const blogByAuthor = async (req, res) => {
     try {
 
         const author = req.query.author
+        let blogs;
 
-        const user = await userSchema.findOne({ name: author })
+        if (author === 'Select') {
 
-        const blogs = await blogsSchema.find({ author: user._id })
+            blogs = await blogsSchema.find()
+        } else {
+
+            const user = await userSchema.findOne({ name: author })
+
+            blogs = await blogsSchema.find({ author: user.name })
+        }
 
         if (blogs) {
 
@@ -42,6 +52,7 @@ const blogByAuthor = async (req, res) => {
             res.status(401).json({ message: 'No blogs found' })
             console.log(error.message)
         }
+
 
     } catch (error) {
         console.log(error)
