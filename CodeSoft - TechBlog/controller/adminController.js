@@ -1,8 +1,8 @@
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs')
-const { hashKey, secretKey } = require('../config/config')
 const blogSchema = require('../models/blogs.model')
 const userSchema = require('../models/user.model')
+const dotenv = require('dotenv')
 
 // logIn page
 const logInPage = (req, res) => {
@@ -32,7 +32,7 @@ const logIn = async (req, res) => {
             const isMatch = await bcrypt.compare(Password, user.password)
             if (isMatch) {
 
-                const token = jwt.sign(user.email, secretKey)
+                const token = jwt.sign(user.email, process.env.hashKey)
 
                 res.cookie('authToken', token, { 'httpOnly': true })
                 res.json({ message: 'success' })
@@ -86,7 +86,7 @@ const createAuthor = async (req, res) => {
 
         if (!user) {
 
-            const hash = await bcrypt.hash(password, hashKey)
+            const hash = await bcrypt.hash(password, process.env.hashKey)
 
             const data = new userSchema({ name: Name, password: hash, email: Email, isAdmin: true })
             await data.save()

@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken')
-const { secretKey } = require('../config/config')
 const userSchema = require('../models/user.model')
+const dotenv = require('dotenv')
 
 
 const verifytoken = async (req, res, next) => {
@@ -11,7 +11,7 @@ const verifytoken = async (req, res, next) => {
 
         if (token) {
 
-            const verified = jwt.verify(token, secretKey)
+            const verified = jwt.verify(token, process.env.secretKey)
 
             if (verified) {
 
