@@ -8,7 +8,7 @@ const blogSchema = mongoose.Schema({
     para: String,
     author: {
 
-        type: mongoose.Schema.Types.ObjectId,
+        type: mongoose.Schema.Types.String,
         ref: 'user'
     }
     

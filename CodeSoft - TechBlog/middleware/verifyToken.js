@@ -15,13 +15,13 @@ const verifytoken = async (req, res, next) => {
 
             if (verified) {
 
-                req.authorName = verified
                 const data = await userSchema.findOne({ email: verified })
 
                 if (data.isAdmin) {
 
+                    req.name = data.name
                     next()
-                    return req.user
+                    return req.name
                 } else {
 
                     return

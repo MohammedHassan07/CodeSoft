@@ -49,12 +49,13 @@
 
         <div>
             <Select id="author">
-                <option value="Select">Select Author</option>
-                <option value="Dr. Shameem">Dr. Shameem</option>
-                <option value="Dr. Raghib">Dr. Raghib</option>
-                <option value="Dr. Salman">Dr. Salman</option>
-                <option value="Prof. Afeefa">Prof. Afeefa</option>
-                <option value="Prof. Anwar">Prof. Anwar</option>
+
+                <option value="Select">Select</option>
+
+                {{#each name}}
+                <option value="{{this}}">{{this}}</option>
+                {{/each}}
+
             </Select>
         </div>
 
@@ -66,15 +67,15 @@
             <div class="card">
 
                 <div class="author">
-                    <p>{{this.Authors}}</p>
+                    <p>{{this.author}}</p>
                 </div>
                 <div>
-                    <img id="card-img" src="{{this.ImgURL}}" alt="Images">
+                    <img id="card-img" src="{{this.imgURL}}" alt="Images">
                 </div>
                 <div class="card-body">
-                    <h3 class="mt-2">{{this.blogTitle}}</h3>
+                    <h3 class="mt-2">{{this.title}}</h3>
 
-                    <p id="blog-content" class="mt-4">{{this.smallPara}}</p>
+                    <p id="blog-content" class="mt-4">{{this.para}}</p>
                 </div>
             </div>
             {{/each}}

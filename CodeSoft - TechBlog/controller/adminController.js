@@ -61,10 +61,11 @@ const insertData = async (req, res) => {
 
         const { blogTitle, blogContent, ImgURL, smallPara, } = req.body
 
-        const blog = new blogSchema({ title: blogTitle, content: blogContent, imgURL: ImgURL, para: smallPara })
+        const author = req.name
+
+        const blog = new blogSchema({ title: blogTitle, content: blogContent, imgURL: ImgURL, para: smallPara, author: author })
 
         const data = await blog.save()
-        console.log('inserted')
 
         res.status(200).json({ message: "inserted", data })
 

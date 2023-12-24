@@ -1,15 +1,20 @@
 const blogsSchema = require('../models/blogs.model')
+const userSchema = require('../models/user.model')
 
 const blogContent = async (req, res) => {
 
-    const title = req.query.q
+    const title = req.query.title
     console.log(title)
 
     try {
 
+        // implement images
+
         const data = await blogsSchema.findOne({ title: title })
 
-        req.status(200).json({ message: 'success', data })
+        console.log('content-->', data)
+
+        res.status(200).json({ message: 'success', data })
 
     } catch (error) {
         console.log(error)
@@ -24,9 +29,9 @@ const blogByAuthor = async (req, res) => {
 
         const author = req.query.author
 
-        
+        const user = await userSchema.findOne({ name: author })
 
-        const blogs = await blogsSchema.find({ author: author })
+        const blogs = await blogsSchema.find({ author: user._id })
 
         if (blogs) {
 

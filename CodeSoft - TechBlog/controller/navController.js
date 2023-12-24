@@ -6,12 +6,18 @@ const home = async (req, res) => {
     try {
 
         const result = await blogSchema.find()
-        const authors = await userSchema.find({isAdmin: true})
-        res.render('home', { result, authors })
+        const authors = await userSchema.find({ isAdmin: true })
 
-        console.log(result, authors)
-        
+        let authorNames = []
+        for (const author of authors) {
+
+            authorNames.push(author.name)
+        }
+
+        res.render('home', { result, name: authorNames })
+
     } catch (error) {
+        console.log(error)
         res.status(500).json({ message: 'Internal server error' })
     }
 }
