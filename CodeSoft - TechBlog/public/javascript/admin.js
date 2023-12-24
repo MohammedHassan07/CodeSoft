@@ -1,7 +1,7 @@
 // insert data 
 const btnSubmit = document.getElementById('btn-submit')
 
-btnSubmit.addEventListener('click', (e) => {
+btnSubmit.addEventListener('click', async (e) => {
 
     e.preventDefault()
 
@@ -10,7 +10,18 @@ btnSubmit.addEventListener('click', (e) => {
     const article = document.getElementById('article').value
     const smallPara = document.getElementById('small-para').value
 
-    sendData(title, imgUrl, article, smallPara, 'insert-data')
+    const token = window.localStorage.getItem('token')
+
+    const res = await sendData(title, imgUrl, article, smallPara, token, 'insert-data')
+
+    if (res.message === 'success') {
+
+
+        document.getElementById('title').value = ''
+        document.getElementById('img-url').value = ''
+        document.getElementById('article').value = ''
+        document.getElementById('small-para').value = ''
+    }
 })
 
 // check title
@@ -52,24 +63,29 @@ const oldTitle = document.getElementById('check-title')
 
 
 // function to send data
-const sendData = async (title, imgUrl, article, smallPara, dataType) => {
+const sendData = async (title, imgUrl, article, smallPara, token, operation) => {
 
-    const url = `http://localhost:3000/admin/${dataType}`
-    blogData = { blogTitle: title, ImgURL: imgUrl, blogContent: article, smallPara: smallPara }
-    // console.log(blogData)
+    try {
 
-    const response = await fetch(url, {
+        const url = `http://localhost:3000/admin/${operation}`
+        const blogData = { blogTitle: title, ImgURL: imgUrl, blogContent: article, smallPara: smallPara, token: token }
 
-        method: 'POST',
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify(blogData)
-    })
+        const response = await fetch(url, {
 
-    const res = await response.json()
-    const result = res.result
-    return result
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(blogData)
+        })
+
+        const res = await response.json()
+        return res
+    } catch (error) {
+
+        console.log(error)
+    }
+
 }
 
 // // update

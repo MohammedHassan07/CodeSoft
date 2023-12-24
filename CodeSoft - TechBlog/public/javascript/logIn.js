@@ -13,9 +13,10 @@ btnLogIn.addEventListener('click', async (e) => {
     
     if (res.message === 'success') {
 
-        console.log('success')
-        window.location.href = 'http://localhost:3000/admin-panel'
+        const token = res.token
+        window.localStorage.setItem('token', token)
         
+        window.location.href = 'http://localhost:3000/admin-panel'
     }
 })
 

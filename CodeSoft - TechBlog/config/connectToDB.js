@@ -1,12 +1,10 @@
-const dotenv = require('dotenv')
+const {databaseURL} = require('../config/config')
 const mongoose = require('mongoose')
 
 const connection = async () => {
 
     try {
 
-
-        const databaseURL = process.env.databaseURL
         await mongoose.connect(databaseURL)
         console.log('connected')
 

@@ -14,8 +14,6 @@ const home = async (req, res) => {
             authorNames.push(author.name)
         }
 
-        console.log(result)
-
         res.render('home', { result, name: authorNames })
 
     } catch (error) {

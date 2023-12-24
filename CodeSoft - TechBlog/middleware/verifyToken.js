@@ -1,17 +1,17 @@
 const jwt = require('jsonwebtoken')
 const userSchema = require('../models/user.model')
-const dotenv = require('dotenv')
-
+const { secretKey } = require('../config/config')
 
 const verifytoken = async (req, res, next) => {
 
     try {
 
-        const token = req.cookies.authToken
-
+        const token = req.body.token
+       console.log('token-->', token)
         if (token) {
 
-            const verified = jwt.verify(token, process.env.secretKey)
+         
+            const verified = jwt.verify(token, secretKey)
 
             if (verified) {
 
@@ -35,7 +35,7 @@ const verifytoken = async (req, res, next) => {
 
     } catch (error) {
 
-        console.log(error.message)
+        console.log(error)
     }
 }
 

@@ -10,7 +10,7 @@ route.post('/author-log-in', logIn)
 
 route.get('/admin', logInPage) 
 
-route.get('/admin-panel', verifytoken, adminPanel)
+route.get('/admin-panel', adminPanel)
 
 route.post('/admin/insert-data', verifytoken, insertData)
 
