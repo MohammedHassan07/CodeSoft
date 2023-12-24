@@ -1,0 +1,30 @@
+@import url(../css/var.css);
+
+main {
+    
+    height: 100vh;  
+    background: var(--bg-primary);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.line-container {
+
+    width: 100%;
+    gap: 1.5em;
+}
+
+.line {
+
+    height: 2px;
+    color: black;
+    background: black;
+    width: 100%;
+}
+
+.container img {
+
+    width: 2em;
+    height: 2em;
+}

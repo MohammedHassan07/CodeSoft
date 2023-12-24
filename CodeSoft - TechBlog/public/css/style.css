@@ -1,0 +1,139 @@
+@import url(../css/var.css);
+
+
+nav {
+
+    background: var(--color-border);
+    height: 2.8em;
+    padding: 27px;
+}
+
+
+.container ul {
+
+    gap: 8em;
+}
+
+#nav-logo {
+
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+ul li {
+
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    margin-left: 5em;
+}
+
+ul li:hover {
+
+    transform: translateY(-3px);
+}
+
+ul li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+span img {
+
+    width: 100vw;
+    height: 100%;
+
+}
+
+main {
+
+    background: var(--bg-primary);
+}
+
+select {
+
+    padding: 6px;
+    border-radius: 11px;
+    width: 18vw;
+    border: solid var(--color-border);
+    margin-top: 32px;
+}
+
+.row {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 70vw;
+    margin: 26px 0px;
+    gap: 1.8em;
+}
+
+.card {
+
+    border-radius: 10px;
+    border: 2px solid var(--color-border);
+    width: 13em;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.author {
+
+    position: relative;
+}
+
+.author p {
+
+    position: absolute;
+    left: 0;
+    background-color: black;
+    padding: 3px 14px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    color: gold;
+}
+
+.card h3 {
+
+    color: white;
+}
+
+.card-body p {
+
+    color: var(--font-secondary);
+}
+
+.card:hover {
+
+    transform: translateY(-4px);
+    box-shadow: 0px 0px 15px var(--color-border);
+}
+
+#card-img {
+    width: 100%;
+    height: 9em;
+    object-fit: cover;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.inner-img {
+
+    position: relative;
+}
+
+.inner-img div {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card-body {
+
+    padding: 2px 4px 8px 9px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="shortcut icon" href="../public/images/" type="image/x-icon">
+
+    <title>{{response.blogTitle}} - Tech Blog</title>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="{{response.ImgURL}}" alt="">
+        {{!-- <img src="../images/group.jpg" alt=""> --}}
+    </header>
+    <main class="container">
+
+        <article class="container flex-column">
+            <div class="mt-18">
+
+                <h2>{{response.blogTitle}}</h2>
+            </div>
+            <div class="mt-14" style="text-align: justify;">
+                <p style="  color: white; line-height: 30px;">{{response.BlogContent}}</p>
+            </div>
+
+            <div class="container flex-between wp-100 mt-25">
+                <div>
+
+                    <button id="btn-prev" data="{{response.Id}}">Prev</button>
+                </div>
+                <div>
+
+                    <button id="btn-next">Next</button>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <script src="../javascript/blog.js"></script>
+</body>
+
+</html>

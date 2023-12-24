@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <title>Admin - Tech Blog</title>
+</head>
+
+<body>
+
+    <main class="container flex-column">
+
+        <form class="container flex-column">
+
+            <h2>Admin Panel</h2>
+            <input id="title" type="text" placeholder="Title">
+            <input id="img-url" type="text" placeholder="Image URL">
+            <input id="small-para" type="text" placeholder="Small Para">
+            <textarea id="article" cols="30" rows="10" placeholder="Article"></textarea>
+            <button id="btn-submit" type="submit">Submit</button>
+
+        </form>
+
+        {{!-- update --}}
+        {{!-- <div class="container flex-column" style="
+                                width: 50vw;
+                                gap: 20px;
+                                margin-top: 20px;">
+
+            <h2>Update Blog</h2>
+            <div class="container wp-100 gap-17">
+                <input id="check-title" type="text" placeholder="Blog Title">
+                <button id="btn-check" type="submit">Check</button>
+            </div>
+            <div class="wp-100">
+                <img id="preview-img" width="100%" height="230" src="../images/javascript.jpg" alt="">
+            </div>
+            <h3>New Values Here</h3>
+
+            <form class="container flex-column" style="margin-top: -9px;">
+
+                <input id="new-title" type="text" placeholder="New Title">
+                <input id="new-img-url" type="text" placeholder="New Image URL">
+                <textarea id="new-article" cols="30" rows="10" placeholder="Article"></textarea>
+                <button id="btn-update" type="submit">Update</button>
+            </form>
+        </div> --}}
+    </main>
+
+    <script src="../javascript/admin.js"></script>
+</body>
+
+</html>

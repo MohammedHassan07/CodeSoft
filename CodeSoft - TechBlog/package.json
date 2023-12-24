@@ -1,0 +1,24 @@
+{
+  "name": "techblog",
+  "version": "1.0.0",
+  "description": "A blog website which handles the personal blog and a mini project to learn MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index.js"
+  },
+  "author": "Mohammed Hassan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

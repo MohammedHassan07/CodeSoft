@@ -1,0 +1,12 @@
+@import url(../css/var.css);
+
+main {
+
+    background-color: var(--bg-primary);
+    height: 100vh;
+}
+
+#log-in {
+
+    max-width: 40vw;
+}

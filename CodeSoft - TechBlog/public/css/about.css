@@ -1,0 +1,68 @@
+@import url(../css/var.css);
+
+body {
+
+    overflow: hidden;
+}
+
+main {
+
+    position: relative;
+    height: 100vh;
+}
+
+main div {
+
+    position: absolute;
+}
+
+#hero-img {
+
+    height: 100%;
+    object-fit: contain;
+}
+
+#para {
+
+    max-width: 28vw;
+    top: 0;
+    right: 0;
+    color: var(--bg-primary);
+    margin-top: 5em;
+    margin-right: 30px;
+    text-align: left;
+}
+
+#para h1 {
+
+    font-size: 65px;
+}
+
+#para h4 {
+
+    font-size: 28px;
+    margin-top: 8px;
+    color: white;
+}
+
+#para p {
+
+    margin-top: 6px;
+    color: var(--font-secondary);
+    line-height: 30px;
+}
+
+.footer {
+
+    right: 0;
+    bottom: 0;
+    margin-bottom: 23px;
+    margin-right: 30px;
+}
+
+.footer img {
+
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
