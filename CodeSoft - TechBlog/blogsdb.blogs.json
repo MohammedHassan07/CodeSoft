@@ -1,0 +1,119 @@
+[{
+  "_id": {
+    "$oid": "6588702c9fcbedd8e3adebda"
+  },
+  "title": "Python Programmin",
+  "content": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.\n\nOften, programmers fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective. ",
+  "imgURL": "https://media.licdn.com/dms/image/D5612AQEYtfoFMKq24Q/article-cover_image-shrink_720_1280/0/1681968223659?e=2147483647&v=beta&t=qConbFNwELr8gCWbDyWckRtjzw-LSd-tSmOr2yjGTUc",
+  "para": "What is Python? Executive Summary",
+  "author": "Rohn",
+  "createdAt": {
+    "$date": "2023-12-24T17:53:48.054Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-24T17:53:48.054Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6588710e9fcbedd8e3adebea"
+  },
+  "title": "Java Programmin",
+  "content": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA),[16] meaning that compiled Java code can run on all platforms that support Java without the need to recompile.[17] Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages.\n\nJava gained popularity shortly after its release, and has been a very popular programming language since then.[18] Java was the third most popular programming language in 2022 according to GitHub[19] and it is ranked fourth on TIOBE index as of October 2023.[20] Although still widely popular, there has been a gradual decline in use of Java in recent years with other languages using JVM gaining popularity.[21]\n\nJava was originally developed by James Gosling at Sun Microsystems. It was released in May 1995 as a core component of Sun Microsystems' Java platform. The original and reference implementation Java compilers, virtual machines, and class libraries were originally released by Sun under proprietary licenses. As of May 2007, in compliance with the specifications of the Java Community Process, Sun had relicensed most of its Java technologies under the GPL-2.0-only license. Oracle offers its own HotSpot Java Virtual Machine, however the official reference implementation is the OpenJDK JVM which is free open-source software and used by most developers and is the default JVM for almost all Linux distributions.\n\nAs of September 2023, Java 21 is the latest version, which is also a long-term support (LTS) version. Java 8, 11, and 17 are previous LTS versions still officially supported.\n",
+  "imgURL": "https://besthqwallpapers.com/Uploads/17-2-2020/122068/java-glitter-logo-programming-language-grid-metal-background-java-creative.jpg",
+  "para": "Java - Platform Independent",
+  "author": "Harry",
+  "createdAt": {
+    "$date": "2023-12-24T17:57:34.064Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-24T17:57:34.064Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6588716d9fcbedd8e3adebf0"
+  },
+  "title": "Artificial Intelligence",
+  "content": "Artificial intelligence (AI) is the intelligence of machines or software, as opposed to the intelligence of humans or animals. It is a field of study in computer science which develops and studies intelligent machines. Such machines may be called AIs.\n\nAI technology is widely used throughout industry, government, and science. Some high-profile applications are: advanced web search engines (e.g., Google Search), recommendation systems (used by YouTube, Amazon, and Netflix), understanding human speech (such as Google Assistant, Siri, and Alexa), self-driving cars (e.g., Waymo), generative and creative tools (ChatGPT and AI art), and superhuman play and analysis in strategy games (such as chess and Go).[1]\n\nAlan Turing was the first person to carry out substantial research in the field that he called Machine Intelligence.[2] Artificial intelligence was founded as an academic discipline in 1956.[3] The field went through multiple cycles of optimism[4][5] followed by disappointment and loss of funding.[6][7] Funding and interest vastly increased after 2012 when deep learning surpassed all previous AI techniques,[8] and after 2017 with the transformer architecture.[9] This led to the AI spring of the 2020s, with companies, universities, and laboratories overwhelmingly based in the United States pioneering significant advances in artificial intelligence.[10]\n\nThe various sub-fields of AI research are centered around particular goals and the use of particular tools. The traditional goals of AI research include reasoning, knowledge representation, planning, learning, natural language processing, perception, and support for robotics.[a] General intelligence (the ability to complete any task performable by a human) is among the field's long-term goals.[11] To solve these problems, AI researchers have adapted and integrated a wide range of problem-solving techniques, including search and mathematical optimization, formal logic, artificial neural networks, and methods based on statistics, operations research, and economics.[b] AI also draws upon psychology, linguistics, philosophy, neuroscience and many other fields.[12]\n",
+  "imgURL": "https://www.rappler.com/tachyon/2022/12/Not-everything-we-call-AI-is-actually-artificial-intelligence.jpg",
+  "para": "AI / ML",
+  "author": "Harry",
+  "createdAt": {
+    "$date": "2023-12-24T17:59:09.427Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-24T17:59:09.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6588724af0c2128000b7b301"
+  },
+  "title": "Cybersecurity",
+  "content": "Computer security, cybersecurity, digital security or information technology security (IT security) is the protection of computer systems and networks from attacks by malicious actors that may result in unauthorized information disclosure, theft of, or damage to hardware, software, or data, as well as from the disruption or misdirection of the services they provide.[1][2]\n\nThe field is significant due to the expanded reliance on computer systems, the Internet,[3] and wireless network standards such as Bluetooth and Wi-Fi. Also, due to the growth of smart devices, including smartphones, televisions, and the various devices that constitute the Internet of things (IoT). Cybersecurity is one of the most significant challenges of the contemporary world, due to both the complexity of information systems and the societies they support. Security is of especially high importance for systems that govern large-scale systems with far-reaching physical effects, such as power distribution, elections, and finance.[4][5]\nVulnerabilities and attacks\nMain article: Vulnerability (computing)\n\nA vulnerability is a weakness in design, implementation, operation, or internal control of a computer or system. Most of the vulnerabilities that have been discovered are documented in the Common Vulnerabilities and Exposures (CVE) database.[6] An exploitable vulnerability is one for which at least one working attack or exploit exists.[7] Vulnerabilities can be researched, reverse-engineered, hunted, or exploited using automated tools or customized scripts.[8][9]\n\nVarious people or parties are vulnerable to cyber attacks, however different groups are likely to experience different types of attacks more than others.[10]\n\nIn April 2023 the United Kingdom Department for Science, Innovation & Technology realised a report on cyber attacks over the last 12 months.[11] They surveyed 2,263 UK businesses, 1,174 UK registered charities and 554 education institutions. The research found that \"32% of businesses and 24% of charities overall recall any breaches or attacks from the last 12 months.\" This figures were much higher for \"medium businesses (59%), large businesses (69%) and high-income charities with £500,000 or more in annual income (56%).\"[11] Yet, although medium or large businesses are more often the victims, since larger companies have generally improved their security over the last decade, small and midsize businesses (SMBs) have also become increasing vulnerable as they often \"do not have advanced tools to defend the business.\"[10] SMBs are most likely to be affected by malware, ransomware, phishing, man-in-the-middle attacks, and Denial-of Service (DoS) Attacks.[10]\n\nNormal people working for a business or simply using the internet are most likely to be affected by \"un-targeted\" cyber attacks.[12] These are where attackers indiscriminately target as many devices, services or users as possible. They do this using techniques that take advantage of the \"openness\" of the Internet. These strategies mostly include phishing, ransomware, water holing and scanning.[12]\n\nTo secure a computer system, it is important to understand the attacks that can be made against it, and these\n\nthreats can typically be classified into one of the following categories:\n",
+  "imgURL": "https://blog.ipleaders.in/wp-content/uploads/2020/03/shutterstock_382458778web-990x446.jpg",
+  "para": "Stay Safe",
+  "author": "Harry",
+  "createdAt": {
+    "$date": "2023-12-24T18:02:50.701Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-24T18:02:50.701Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658872fdf0c2128000b7b306"
+  },
+  "title": "Web development",
+  "content": "Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development.\n\nAmong Web professionals, \"Web development\" usually refers to the main non-design aspects of building Web sites: writing markup and coding.[2] Web development may use content management systems (CMS) to make content changes easier and available with basic technical skills.\n\nFor larger organizations and businesses, Web development teams can consist of hundreds of people (Web developers) and follow standard methods like Agile methodologies while developing Web sites.[1] Smaller organizations may only require a single permanent or contracting developer, or secondary assignment to related job positions such as a graphic designer or information systems technician. Web development may be a collaborative effort between departments rather than the domain of a designated department. There are three kinds of Web developer specialization: front-end developer, back-end developer, and full-stack developer.[3] Front-end developers are responsible for behavior and visuals that run in the user browser, while back-end developers deal with the servers.[4] Since the commercialization of the Web, the industry has boomed and has become one of the most used technologies ever.\n",
+  "imgURL": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221222184908/web-development1.png",
+  "para": "Start your career in web development",
+  "author": "Harry",
+  "createdAt": {
+    "$date": "2023-12-24T18:05:49.510Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-24T18:05:49.510Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65887366f0c2128000b7b30c"
+  },
+  "title": "Flask ",
+  "content": "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.[2] It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.[3]\n\nApplications that use the Flask framework include Pinterest and LinkedIn.[4][5]\nHistory\n\nFlask was created by Armin Ronacher of Pocoo, an international group of Python enthusiasts formed in 2004.[6] According to Ronacher, the idea was originally an April Fool's joke that was popular enough to make into a serious application.[7][8][9] The name is a play on the earlier Bottle framework.[7]\n\nWhen Ronacher and Georg Brandl created a bulletin board system written in Python in 2004, the Pocoo projects Werkzeug and Jinja were developed.[10]\n\nIn April 2016, the Pocoo team was disbanded and development of Flask and related libraries passed to the newly formed Pallets project.[11][12] Since 2018, Flask-related data and objects can be rendered with Bootstrap.[13]\n\nFlask has become popular among Python enthusiasts. As of October 2020, it has the second-most number of stars on GitHub among Python web-development frameworks, only slightly behind Django,[14] and was voted the most popular web framework in the Python Developers Survey for years between and including 2018 and 2022.[15][16][17][18][19]\nComponents\n\nThe microframework Flask is part of the Pallets Projects (formerly Pocoo), and based on several others of them, all under a BSD license.\nWerkzeug\n\nWerkzeug (German for \"tool\") is a utility library for the Python programming language for Web Server Gateway Interface (WSGI) applications. Werkzeug can instantiate objects for request, response, and utility functions. It can be used as the basis for a custom software framework and supports Python 2.7 and 3.5 and later.[20][21]\nJinja\nMain article: Jinja (template engine)\n\nJinja, also by Ronacher, is a template engine for the Python programming language. Similar to the Django web framework, it handles templates in a sandbox.\n\nMarkupSafe is a string handling library for the Python programming language. The eponymous MarkupSafe type extends the Python string type and marks its contents as \"safe\"; combining MarkupSafe with regular strings automatically escapes the unmarked strings, while avoiding double escaping of already marked strings.\nItsDangerous\n\nItsDangerous is a safe data serialization library for the Python programming language. It is used to store the session of a Flask application in a cookie without allowing users to tamper with the session contents.\nFeatures\nDevelopment server and debugger\nIntegrated support for unit testing\nRESTful request dispatching\nUses Jinja templating\nSupport for secure cookies (client side sessions)\n100% WSGI 1.0 compliant\nUnicode-based\n\n    Complete documentation\n    Google App Engine compatibility\n    Extensions available to extend functionality\n\n",
+  "imgURL": "https://nordicapis.com/wp-content/uploads/How-to-Create-an-API-Using-The-Flask-Framework-1024x576.png",
+  "para": "A lightweight web framework",
+  "author": "Rohn",
+  "createdAt": {
+    "$date": "2023-12-24T18:07:34.579Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-24T18:07:34.579Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658873c8f0c2128000b7b311"
+  },
+  "title": "RestFull API",
+  "content": "REST (Representational state transfer) is a software architectural style that was created to guide the design and development of the architecture for the World Wide Web. REST defines a set of constraints for how the architecture of a distributed, Internet-scale hypermedia system, such as the Web, should behave. The REST architectural style emphasises uniform interfaces, independent deployment of components, the scalability of interactions between them, and creating a layered architecture to promote caching to reduce user-perceived latency, enforce security, and encapsulate legacy systems.[1]\n\nREST has been employed throughout the software industry to create stateless, reliable Web-based applications. An application that adheres to the REST architectural constraints may be informally described as RESTful, although this term is more commonly associated with the design of HTTP-based APIs and what are widely considered best practices regarding the \"verbs\" (HTTP methods) a resource responds to while having little to do with REST as originally formulated—and is often even at odds with the concept.[2]\nPrinciple\n\nThe term representational state transfer was introduced and defined in 2000 by computer scientist Roy Fielding in his doctoral dissertation. It means that a server will respond with the representation of a resource (today, it will most often be an HTML, XML or JSON document) and that resource will contain hypermedia links that can be followed to make the state of the system change. Any such request will in turn receive the representation of a resource, and so on.\n\nAn important consequence is that the only identifier that needs to be known is the identifier of the first resource requested, and all other identifiers will be discovered. This means that those identifiers can change without the need to inform the client beforehand and that there can be only loose coupling between client and server.\nHistory\nRoy Fielding speaking at OSCON 2008\n\nThe Web began to enter everyday use in 1993–1994, when websites for general use started to become available.[3] At the time, there was only a fragmented description of the Web's architecture, and there was pressure in the industry to agree on some standard for the Web interface protocols. For instance, several experimental extensions had been added to the communication protocol (HTTP) to support proxies, and more extensions were being proposed, but there was a need for a formal Web architecture with which to evaluate the impact of these changes.[4]\n\nThe W3C and IETF working groups together started work on creating formal descriptions of the Web's three primary standards: URI, HTTP, and HTML. Roy Fielding was involved in the creation of these standards (specifically HTTP 1.0 and 1.1, and URI), and during the next six years he created the REST architectural style, testing its constraints on the Web's protocol standards and using it as a means to define architectural improvements — and to identify architectural mismatches. Fielding defined REST in his 2000 PhD dissertation \"Architectural Styles and the Design of Network-based Software Architectures\"[1][5] at UC Irvine.\n\nTo create the REST architectural style, Fielding identified the requirements that apply when creating a world-wide network-based application, such as the need for a low entry barrier to enable global adoption. He also surveyed many existing architectural styles for network-based applications, identifying which features are shared with other styles, such as caching and client–server features, and those which are unique to REST, such as the concept of resources. Fielding was trying to both categorise the existing architecture of the current implementation and identify which aspects should be considered central to the behavioural and performance requirements of the Web.\n\nBy their nature, architectural styles are independent of any specific implementation, and while REST was created as part of the development of the Web standards, the implementation of the Web does not obey every constraint in the REST architectural style. Mismatches can occur due to ignorance or oversight, but the existence of the REST architectural style means that they can be identified before they become standardised. For example, Fielding identified the embedding of session information in URIs as a violation of the constraints of REST which can negatively affect shared caching and server scalability. HTTP cookies also violated REST constraints because they can become out of sync with the browser's application state, making them unreliable; they also contain opaque data that can be a concern for privacy and security.\n",
+  "imgURL": "https://qatestlab.com/assets/Uploads/API-Application-Programming-Interface.jpg",
+  "para": "RestFull API",
+  "author": "Rohn",
+  "createdAt": {
+    "$date": "2023-12-24T18:09:12.061Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-24T18:09:12.061Z"
+  },
+  "__v": 0
+}]

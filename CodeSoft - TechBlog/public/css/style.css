@@ -74,9 +74,10 @@ select {
 
 .card {
 
+    width: 13em;
+    height: 36vh;
     border-radius: 10px;
     border: 2px solid var(--color-border);
-    width: 13em;
     cursor: pointer;
     transition: all 0.2s ease-in;
 }

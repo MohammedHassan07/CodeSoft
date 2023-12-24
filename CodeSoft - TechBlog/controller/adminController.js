@@ -63,8 +63,6 @@ const insertData = async (req, res) => {
 
         const data = await blog.save()
 
-        console.log('inserted -->', data)
-
         res.status(200).json({ message: "success", data })
 
     } catch (error) {

@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "658800810d1f78b0d2fba650"
+  },
+  "name": "Harry",
+  "email": "harry@xyz.com",
+  "password": "$2a$10$7LBdeqRCG8K4LcK3zkOzoeCaG6tvva06bEDAA4UkcgEZ3AJUqADjC",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2023-12-24T09:57:21.956Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-24T09:57:21.956Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6588009c0d1f78b0d2fba652"
+  },
+  "name": "Rohn",
+  "email": "rohn@xyz.com",
+  "password": "$2a$10$Kks6lv2MZK3PPE/nm0u9hOkNEkgMz7Zov8kaVpgwcWcQ/DYocaYC.",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2023-12-24T09:57:48.807Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-24T09:57:48.807Z"
+  },
+  "__v": 0
+}]
