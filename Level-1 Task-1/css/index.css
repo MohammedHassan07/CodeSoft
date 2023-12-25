@@ -1,0 +1,165 @@
+@import url(./var.css);
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400&family=Poppins:wght@500&display=swap');
+
+.nav {
+
+    background-color: var(--primary-bg);
+    color: var(--text-3);
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.nav h1 {
+
+    margin-left: 3vw;
+}
+
+.hero {
+
+    background-color: var(--secondary-bg);
+    justify-content: space-evenly;
+    align-items: center;
+    height: 65vh;
+}
+
+#leading {
+
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: var(--secondary-text);
+    font-size: 2.1em;
+}
+
+.fc {
+
+    color: var(--text-2);
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
+#btn-contact {
+
+    background-color: var(--primary-bg);
+    text-align: center;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 200;
+    width: 66%;
+    padding: 6px;
+    border: none;
+}
+
+.hero-img {
+    width: 34vw;
+    height: 45vh;
+}
+
+.hero-img img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.hero-strip {
+
+    background: var(--secondary-text);
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+.superior {
+
+    background-color: var(---bg-3);
+    text-align: center;
+    /* height: 39vh; */
+    padding: 43px 0px 61px 0px;
+}
+
+.superior-container {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.superior-text {
+    margin: 20px 0px 67px 0px;
+}
+
+.solution {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+
+}
+
+.business {
+
+    font-family: 'Poppins';
+}
+
+.superior-img-container {    
+    width: 107px;
+    height: 59px;
+    margin: 0px 26px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.superior-img-container img {
+
+    width: 60%;
+}
+
+.benefits {
+
+    height: 65vh;
+    background-color: var(--primary-bg);
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--text-3);
+}
+
+.business-img {
+
+    width: 34vw;
+    height: 45vh;
+}
+
+.few-words { 
+
+    height: 80vh;
+    background-color: var(--secondary-bg);
+    color: var(--text-3);
+    padding: 12px;
+}
+
+.ul-container li {
+
+    list-style: circle;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.card-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    flex-wrap: wrap;
+}
+.card {
+
+    width: 28vw;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+    margin: 20px;
+}
+.card-img {
+    width: 100px;
+    height: 51px;
+}
+

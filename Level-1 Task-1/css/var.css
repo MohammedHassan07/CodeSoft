@@ -1,0 +1,22 @@
+
+/* text colors */
+:root {
+    
+ --primary-text: #111;
+ --secondary-text: #51c6ff;
+ --text-2: rgb(196, 196, 196);
+ --text-3: white;
+ 
+}
+
+/* background */
+:root {
+
+    --primary-bg: #dd770b;
+    --secondary-bg: #2f2f2f;
+    ---bg-3: #b9f2ff;
+}
+
+/* border */
+
+
