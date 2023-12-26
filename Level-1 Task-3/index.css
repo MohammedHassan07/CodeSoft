@@ -17,7 +17,6 @@ main {
 }
 
 .container {
-    width: 25%;
     border: 2px solid white;
     border-radius: 8px;
     padding: 15px;
@@ -29,7 +28,11 @@ input {
     border-radius: 8px;
     box-shadow: 0px 0px 25px #6c6c75 inset;
     border: none;
-    font-size: 19px;
+    font-size: 25px;
+}
+
+input:focus {
+    outline: none;
 }
 
 #error {
@@ -40,12 +43,8 @@ input {
     display: none;
 }
 
-input:focus {
-    outline: none;
-}
 
-
-.button-container div {
+.button-container {
 
     width: 100%;
     display: grid;
@@ -54,14 +53,14 @@ input:focus {
     grid-template-columns: repeat(4, 1fr);
     row-gap: 15px;
 
-    margin-top: 12px;
+    margin-top: 21px;
 }
 
 button {
 
     color: white;
     background-color: black;
-    border-radius: 50%;
+    border-radius: 30%;
     padding: 14px 20px;
     border: none;
     cursor: pointer;
@@ -71,4 +70,15 @@ button {
 .row-1 button {
 
     background-color: rgb(214, 147, 21);
+}
+
+.equal {
+
+    grid-column: 3 / 5;
+}
+
+.equal button {
+
+    border-radius: 20px;
+    width: 82%;
 }
