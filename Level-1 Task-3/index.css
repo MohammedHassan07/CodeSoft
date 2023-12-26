@@ -55,7 +55,10 @@ input:focus {
 
     margin-top: 21px;
 }
+.button-container div {
 
+    text-align: center;
+}
 button {
 
     color: white;
