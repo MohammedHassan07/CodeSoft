@@ -14,8 +14,7 @@ buttons.forEach((button) => {
                 let result = eval(string)
                 console.log(string)
                 document.querySelector('input').value = result
-                string = ''
-
+                string = result 
             } else if (event.target.innerHTML == 'AC') {
 
                 span = document.getElementById('error').style.display = 'none'
