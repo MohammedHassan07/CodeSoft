@@ -1,2 +1,2 @@
-# Landing Page
-A landing page for software company
+# PORTFOLIO
+Personal portfolio website
