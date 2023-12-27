@@ -73,7 +73,7 @@
     background-color: var(---bg-3);
     text-align: center;
     /* height: 39vh; */
-    padding: 43px 0px 61px 0px;
+    padding: 43px 0px 75px 0px;
 }
 
 .superior-container {
@@ -119,12 +119,13 @@
     justify-content: space-evenly;
     align-items: center;
     color: var(--text-3);
+    position: relative;
 }
 
 .business-img {
 
-    width: 34vw;
-    height: 45vh;
+    width: 23vw;
+    height: 40vh;
 }
 
 .few-words {
@@ -133,6 +134,7 @@
     background-color: var(--secondary-bg);
     color: var(--text-3);
     padding: 12px;
+    position: relative;
 }
 
 .ul-container li {
@@ -167,6 +169,7 @@
 
 .clients {
     padding: 57px 0px 70px 0px;
+    position: relative;
 }
 
 .clients-text {
@@ -198,7 +201,8 @@
 .contact {
 
     background-color: var(--bg-4);
-    height: 50vh;
+    height: 65vh;
+    position: relative;
 }
 
 .contact-text {
@@ -207,12 +211,66 @@
     font-family: 'Barlow', sans-serif;
 }
 
-.contact input {
-
-    border: 2px solid var(--border-1);
-}
-
 .input-container {
 
-margin-top: 27px;
+    margin-top: 27px;
+    gap: 35px;
+    width: 70vw;
+}
+
+.contact input,
+textarea {
+
+    border: 2px solid var(--border-1);
+    width: 100%;
+    border-radius: 4px;
+    height: 32px;
+    padding: 2px 10px;
+}
+
+
+.contact input:focus,
+textarea:focus {
+
+    outline: none;
+    box-shadow: 0px 0px 9px var(--border-1);
+
+}
+
+.text-area-container {
+    height: 119px;
+    width: 32%;
+}
+
+
+.text-area-container textarea {
+
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+.send-button {
+
+    background: var(--primary-bg);
+    color: white;
+    border: none;
+    padding: 6px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.send-button:hover {
+
+    box-shadow: 0px 0px 4px var(--primary-bg);
+}
+
+footer {
+
+    
+    background-color: var(--secondary-bg);
+    color: var(--text-3);
+    padding: 14px;
+
 }

@@ -37,12 +37,21 @@
     text-align: center;
 }
 
+.t-right {
+
+    text-align: right;
+}
+
 /* height and width */
+.wp-25 {
+
+    width: 25%;
+}
+
 .wp-100 {
 
     width: 100%;
 }
-
 .hp-100 {
 
     height: 100%;
@@ -55,11 +64,16 @@
 }
 
 /* margin */
+.m-12 {
+
+    margin: 12px;
+}
+
+/* margin */
 .mt-2 {
 
     margin-top: 2px;
 }
-
 .mt-5 {
 
     margin-top: 5px;
@@ -128,7 +142,16 @@
     width: 100%;
 }
 
+.vw-41 {
+
+    width: 41vw;
+}
+
 /* gap */
+.gap-26 {
+
+    gap: 26px;
+}
 .gap-53 {
 
     gap: 53px;
@@ -255,16 +278,6 @@ form h2 {
     font-size: 2.2em;
     color: white;
 }
-
-input {
-    width: 100%;
-    border: 2px solid var(--border-primary);
-    border-radius: 4px;
-    height: 32px;
-    padding-left: 7px;
-
-}
-
 .btn {
 
     height: 2.5em;
@@ -342,4 +355,30 @@ input {
     font-size: 12px;
     line-height: 18px;
     margin-top: 16px;
+}
+
+.section-head-text {
+
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+}
+
+.semi-circle {
+
+    position: absolute;
+    top: 0;
+    left: auto;
+    background-color: var(--primary-bg);
+    width: 117px;
+    height: 58px;
+    border-radius: 150px 150px 0px 0px;
+    margin-top: -35px;
+}
+
+.semi-circle img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 27px;
 }
